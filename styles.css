@@ -5,7 +5,7 @@
     --Quicksand: 'Quicksand', sans-serif;
     --Roboto: 'Roboto', sans-serif;
     --dark: #3c393d;
-    --exDark: #2b2b2b;
+    --exDark: #e20b0b;
 }
 *{
     padding: 0;
@@ -29,13 +29,13 @@ img{
 /* header */
 header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://github.com/Ogweno-lab/Ogweno_Robo_Dojo/blob/styling/images/robot-1658018.jpg) center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/robot-1658018.jpg) center/cover no-repeat fixed;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
 }
 .navbar{
-    background: rgba(224, 235, 73, 0.918);
+    background: rgba(0, 0, 0, 0.6);
     padding: 1.2rem;
 }
 .navbar-brand{
