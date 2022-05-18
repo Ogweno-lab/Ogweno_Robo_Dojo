@@ -29,7 +29,7 @@ img{
 /* header */
 header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://github.com/Ogweno-lab/Ogweno_Robo_Dojo/blob/styling/Images/robot-1658018.jpg) center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Images/robot-1658018.jpg) center/cover no-repeat fixed;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
