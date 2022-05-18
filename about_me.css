@@ -7,25 +7,27 @@
     --dark: #3c393d;
     --exDark: #e20b0b;
 }
+
 *{
     padding: 0;
     margin: 0;
     font-family: var(--Quicksand);
 }
+
 body{
-    line-height: 1.4;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.5;
     color: var(--dark);
+    letter-spacing: 1px;
+
 }
-img{
-    width: 100%;
-    display: block;
-}
+
 .container{
     max-width: 1320px;
     margin: 0 auto;
     padding: 0 1.2rem;
 }
-
 
 .navbar{
     background: rgba(0, 0, 0, 0.6);
@@ -60,75 +62,45 @@ img{
     opacity: 0.7;
 }
 
-/* design */
-
-.title{
-    text-align: center;
-    padding: 1rem 0;
-}
-.title h1{
-    font-family: var(--Playfair);
-    font-size: 2.4rem;
-}
-.title p{
-    padding: 0.6rem 0;
-}
-
-
 /* blog */
-.blog{
-    background: #f9f9f9;
-    padding: 4.5rem 0;
+.wrapper{
+    background-image: linear-gradient(rgba(178, 199, 184, 0.685), rgba(178, 199, 184, 0.685)), url(images/tech-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.blog-content{
-    margin: 2rem 0;
+.testimonial{
+    padding: 30px 100px;
 }
-.blog-img{
-    position: relative;
+article h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5;
 }
-.blog-img span{
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    background: var(--exDark);
-    color: #fff;
-    font-size: 1.4rem;
-    padding: 0.3rem 0.6rem;
-}
-.blog-text{
-    margin: 2.2rem 0;
-    padding: 0.6rem 0;
-}
-.blog-text span{
-    font-weight: 300;
+article h1:after{
+    content: "";
+    height: 5px;
+    width: 225px;
+    background-color: #fff;
     display: block;
-    padding-bottom: 0.5rem;
+    margin: auto;
 }
-.blog-text h2{
-    font-family: var(--Playfair);
-    padding: 1rem 0;
-    font-size: 1.65rem;
-    font-weight: 500;
+article img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 60px;
 }
-.blog-text p{
-    font-weight: 300;
-    font-size: 1.1rem;
-    opacity: 0.9;
-    padding-bottom: 1.2rem;
+blockquote{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
 }
-.blog-text a{
-    font-family: var(--Roboto);
-    font-size: 1.1rem;
-    text-decoration: none;
-    color: var(--dark);
-    display: inline-block;
-    background: var(--dark);
-    color: #fff;
-    padding: 0.55rem 1.2rem;
-    transition: all 0.5s ease;
-}
-.blog-text a:hover{
-    background: var(--exDark);
+article p{
+    font-size: 18px;
+    margin-top: 30px;
 }
 
 
